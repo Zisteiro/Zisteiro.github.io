@@ -240,5 +240,37 @@ h1{
     
 }
 
+@charset "utf-8";
+#menu{
+ background:#f9f9f9;
+ border:solid 1px #DEDEDE;
+ border-radius:3px;
+ width:180px;
+ padding:5px;
+ }
+menu{
+ color:#06F;
+ margin:0px;
+ background:linear-gradient(#fff 0%,#dedede 100%);
+ background:-moz-linear-gradient(#fff 0%,#dedede 100%);
+ background:-ms-linear-gradient(#fff 0%,#dedede 100%);
+ background:-o-linear-gradient(#fff 0%,#dedede 100%);
+ background:-webkit-linear-gradient(#fff 0%,#dedede 100%);
+ border:solid 1px #f9f9f9;
+ border-radius:5px;
+ padding:5px;
+ }
+menu:hover{
+ background:linear-gradient(#DEDEDE 0%, #FFF 100%);
+ background:-moz-linear-gradient(#DEDEDE 0%, #FFF 100%);
+ background:-ms-linear-gradient(#DEDEDE 0%, #FFF 100%);
+ background:-o-linear-gradient(#DEDEDE 0%, #FFF 100%);
+ background:-webkit-linear-gradient(#DEDEDE 0%, #FFF 100%);
+ border-radius:3px;
+ border:solid 1px #333;
+ color:red;
+ }
+ 
+
 
 
