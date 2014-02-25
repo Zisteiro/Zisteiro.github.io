@@ -240,15 +240,9 @@ h1{
     
 }
 
-#menu{
- background:#f9f9f9;
- border:solid 1px #DEDEDE;
- border-radius:3px;
- width:600px;
- padding:5px;
- }
+
 menu{
- color:#06F;
+ color:#190714;
  display:inline-block;
  margin:0px;
  background:linear-gradient(#fff 0%,#dedede 100%);
@@ -258,7 +252,7 @@ menu{
  background:-webkit-linear-gradient(#fff 0%,#dedede 100%);
  border:solid 1px #f9f9f9;
  border-radius:5px;
- width:100px;
+ width:400px;
  padding:5px;
  }
 menu:hover{
