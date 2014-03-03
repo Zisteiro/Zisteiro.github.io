@@ -228,12 +228,20 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 }
 
 .description input[type=checkbox]:checked~.description-text { opacity: 1 }
+
 p{
     font-family:Verdana;
     font-size:14px;
     color:White;
     
 }
+p.oscuro{
+    
+        font-family:Verdana;
+    font-size:14px;
+    color:Black;
+}
+
 h1{
     color: Red;
     font-style:cursive;
