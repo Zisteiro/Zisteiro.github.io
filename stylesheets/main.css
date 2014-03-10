@@ -248,7 +248,7 @@ h1{
     
 }
 
-menu{
+.menu{
  color:#190714;
  display:inline-block;
  margin:0px;
@@ -262,7 +262,7 @@ menu{
  width:400px;
  padding:5px;
  }
-menu:hover{
+.menu:hover{
  background:linear-gradient(#DEDEDE 0%, #FFF 100%);
  background:-moz-linear-gradient(#DEDEDE 0%, #FFF 100%);
  background:-ms-linear-gradient(#DEDEDE 0%, #FFF 100%);
@@ -272,6 +272,35 @@ menu:hover{
  border:solid 1px #333;
  color:red;
  }
+#Inicio, #Quevisitar, #Hoteles, #Restaurantes, #Ocio, #Disneyland{
+	display:none;
+}
+#Inicio:target{
+	display:block;
+}
+#Quevisitar:target{
+	display:block;
+}
+#Hoteles:target{
+	display:block;
+}
+
+#Restaurantes:target{
+	display:block;
+}
+#Quevisitar:target{
+	display:block;
+}
+#Hoteles:target{
+	display:block;
+}
+#Ocio:target{
+	display:block;
+}
+#Disneyland:target{
+	display:block;
+}
+
 
 
 
